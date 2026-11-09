@@ -1,6 +1,6 @@
 # LEAF — Despliegue en AWS
 
-Proyecto final del curso **Cloud Computing 2026** · Universidad Galileo, FISICC.
+Proyecto final del curso **Cloud Computing 2026** 
 
 **LEAF** digitaliza la lectura de los contadores de agua de un condominio. El personal de mantenimiento registra las lecturas, el sistema calcula el consumo y los residentes consultan su historial y descargan sus reportes en PDF.
 
@@ -95,9 +95,7 @@ Con `API_BASE_URL` vacío, la app usa la misma dirección desde la que se abre, 
 - El bucket bloquea todo el acceso público; los PDF se entregan con URLs prefirmadas.
 - Las contraseñas de los usuarios se guardan con hash bcrypt, y los secretos viven en `.env`, que no se sube al repositorio.
 
-## Documentación
 
-La documentación completa (arquitectura, servicios, pasos de despliegue, estimación de costos y seguridad) se entrega en PDF junto con el proyecto.
 
 ## Autor
 
