@@ -1,0 +1,4 @@
+frontend/leaf_mobile.zip
+.env
+node_modules/
+*.pem
